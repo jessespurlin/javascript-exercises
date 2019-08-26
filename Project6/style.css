@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #4FC3F7;
+}
+
+#clock {
+    text-align: center;
+    color: white;
+    font-size: 10rem;
+    font-family: 'Oswald', sans-serif;
+    /* tabular-nums should make each number the same width so that 
+    the numbers don't shift around so much when they change. It does not 
+    seem to work but it doesn't break anything else... */
+    font-variant-numeric: tabular-nums;
+}
+
